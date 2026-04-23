@@ -1,0 +1,1 @@
+# Vanilla Docker Compose Odoo Structure
