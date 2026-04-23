@@ -12,7 +12,6 @@ services:
       - odoo19-web-data:/var/lib/odoo
       - ./config:/etc/odoo
       - ./custom-addons:/mnt/custom-addons
-      - ./cbl:/mnt/cbl
       - ./enterprise-addons:/mnt/enterprise-addons
     environment:
       - PASSWORD_FILE=/run/secrets/postgresql_password
