@@ -19,7 +19,7 @@ services:
       - postgresql_password
 
   db:
-    image: postgres:18
+    image: pgvector/pgvector:0.8.6-pg18-trixie
     container_name: odoo19-db
     environment:
       - POSTGRES_DB=postgres
