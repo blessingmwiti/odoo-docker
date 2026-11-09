@@ -5,8 +5,8 @@ services:
     depends_on:
       - db
     ports:
-      - "10019:8069"
-      - "10031:8072"
+      - "10020:8069"
+      - "10120:8072"
     volumes:
       - ./logs:/etc/odoo-logs/
       - odoo20-web-data:/var/lib/odoo
