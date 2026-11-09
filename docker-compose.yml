@@ -6,7 +6,7 @@ services:
       - db
     ports:
       - "10019:8069"
-      - "10031:8072"
+      - "10119:8072"
     volumes:
       - ./logs:/etc/odoo-logs/
       - odoo19-web-data:/var/lib/odoo
